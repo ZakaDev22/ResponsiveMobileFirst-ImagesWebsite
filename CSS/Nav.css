@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto+Slab:wght@600&display=swap');
+
 nav {
 
     display: flex;
@@ -8,6 +10,7 @@ nav {
     width: 100%;
     height: 20%;
 
+    font-family: "Dancing Script", cursive;
     background-color:rgba(255,255,255,0.1);
     border-radius: 0px 0px  30px 30px;
 }
@@ -56,8 +59,7 @@ nav ul li a , nav .profile .profile-name h2{
 
     text-decoration: none;
     color: #ffffff;
-    font-size: 20xp;
-    font-family: cursive;
+    font-size: 1.5rem;
     font-weight: 600;
     transition: all 650ms ease;
 }
@@ -66,5 +68,5 @@ nav ul li a:hover , nav .profile .profile-name h2:hover{
 
     color: red;
     text-shadow: 5px 5px 5px #b5b5b5;
-    font-size: 30px;
+    font-size: 3rem;
 }
